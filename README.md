@@ -112,16 +112,7 @@ finance-Dashboard/
 
 ---
 
-## 🔐 Default Login
-
-| Role | Email | Password |
-|------|-------|----------|
-| Owner | admin | admin |
-| Staff | staff@example.com | password |
-
----
-
-## 📝 API Endpoints
+##  API Endpoints
 
 ### Auth
 | Method | Endpoint | Deskripsi |
