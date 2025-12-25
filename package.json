@@ -1,0 +1,21 @@
+{
+  "name": "keuangan-app",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:owner\"",
+    "dev:owner": "npm run dev -w packages/owner-dashboard",
+    "dev:backend": "npm run dev -w packages/backend",
+    "db:generate": "npm run db:generate -w packages/backend",
+    "db:push": "npm run db:push -w packages/backend",
+    "db:seed": "npx tsx packages/backend/src/seed.ts",
+    "build": "npm run build -w packages/owner-dashboard",
+    "preview": "npm run preview -w packages/owner-dashboard"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
