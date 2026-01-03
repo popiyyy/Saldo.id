@@ -149,10 +149,3 @@ finance-Dashboard/
 
 ---
 
-## 📄 Lisensi
-
-MIT License - Silakan gunakan untuk proyek pribadi maupun komersial.
-
----
-
-**Made with ❤️ by Farhan**
