@@ -139,13 +139,3 @@ finance-Dashboard/
 
 ---
 
-## 🤝 Kontribusi
-
-1. Fork repository ini
-2. Buat branch fitur: `git checkout -b fitur-baru`
-3. Commit perubahan: `git commit -m 'Tambah fitur baru'`
-4. Push ke branch: `git push origin fitur-baru`
-5. Buat Pull Request
-
----
-
